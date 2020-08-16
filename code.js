@@ -3,11 +3,12 @@ var helloWorld = function() {
     return "Hello, World!";
 }
 //Exercise #1
-function sayHello() {
+// function sayHello() {
+//
+// }
 
+//Exercise #2
+function sayHello() {
+    return "";
 }
 
-
-// function sayHello() {
-//     return "";
-// }

@@ -15,18 +15,15 @@ describe('helloWorld', function() {
 });
 
 //Unit tests for the sayHello function
+//Exercise #1
 describe('sayHello', function() {
-   it('should be a defined function', function() {
-       expect(typeof sayHello).toBe('function');
-   });
+    it("should be a defined function", function() {
+        expect(typeof sayHello).toBe('function');
+    });
+    // Exercise #2
+    it('should return a string when called', function() {
+        expect(typeof sayHello()).toBe("string");
+    });
+    // Exercise #3
+    it('should return the string "Hello, ')
 });
-
-// describe('sayHello', function() {
-//     it("should be a defined function", function() {
-//         expect(typeof sayHello).toBe('function');
-//     });
-//     it('should return a string when called', function() {
-//         expect(typeof sayHello()).toBe("string");
-//     });
-//     it('should return the string "Hello, ')
-// });
