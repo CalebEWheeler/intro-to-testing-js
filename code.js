@@ -27,12 +27,19 @@ var helloWorld = function() {
 // }
 
 //Exercise #5
+// function sayHello(input) {
+//     if (input === "Alex") {
+//         return "Hello, Alex!";
+//     }else if (input === "Pat") {
+//         return "Hello, Pat!";
+//     }else {
+//         return "Hello, Jane!"
+//     }
+// }
+
+//Exercise #6 refactor
 function sayHello(input) {
-    if (input === "Alex") {
-        return "Hello, Alex!";
-    }else if (input === "Pat") {
-        return "Hello, Pat!";
-    }else {
-        return "Hello, Jane!"
-    }
+    return "Hello, " + input + "!";
 }
+
+// Exercise #7 add,commit,push
