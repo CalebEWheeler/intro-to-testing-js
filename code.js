@@ -2,7 +2,12 @@
 var helloWorld = function() {
     return "Hello, World!";
 }
-//sayHello function
+//Exercise #1
 function sayHello() {
-    return "";
+
 }
+
+
+// function sayHello() {
+//     return "";
+// }
