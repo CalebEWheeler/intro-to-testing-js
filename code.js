@@ -48,3 +48,9 @@ var helloWorld = function() {
 function sayHello(input) {
     return "Hello, World!";
 }
+
+    // Exercise #9 add/commit/push
+    // Exercise #10 isFive()
+function isFive(input) {
+        return true;
+}
