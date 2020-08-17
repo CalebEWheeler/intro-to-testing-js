@@ -38,8 +38,18 @@ var helloWorld = function() {
 // }
 
 //Exercise #6 refactor
-function sayHello(input) {
-    return "Hello, " + input + "!";
-}
+// function sayHello(input) {
+//     return "Hello, " + input + "!";
+// }
 
 // Exercise #7 add,commit,push
+// Exercise #8
+function sayHello(input) {
+    if (input === undefined) {
+        return "Hello, World!";
+    }if (input === true) {
+        return "Hello, World!";
+    }if (input === false) {
+        return "Hello, World!";
+    }
+}
