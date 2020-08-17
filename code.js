@@ -1,4 +1,5 @@
-// helloWorld function 
+"use strict"
+// helloWorld function
 var helloWorld = function() {
     return "Hello, World!";
 }
@@ -45,11 +46,5 @@ var helloWorld = function() {
 // Exercise #7 add,commit,push
 // Exercise #8
 function sayHello(input) {
-    if (input === undefined) {
-        return "Hello, World!";
-    }if (input === true) {
-        return "Hello, World!";
-    }if (input === false) {
-        return "Hello, World!";
-    }
+    return "Hello, World!";
 }
